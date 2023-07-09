@@ -345,7 +345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05a481cde58569942ba56c88488f683a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberOfSpawn: 10
+  numberOfSpawn: 50
   boid: {fileID: 3647761987871910236, guid: 281a7e78976dd3a4fb67b2b5a54d11ec, type: 3}
   borderLimit: 8
   boids: []

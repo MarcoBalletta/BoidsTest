@@ -100,15 +100,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawner: {fileID: 0}
-  _matchingFactor: 0.05
   alignWithOthersStrength: 5
-  moveToCenterStrength: 1
-  avoidOtherStrength: 1
-  avoidWallsStrength: 10
+  moveToCenterStrength: 0.5
+  avoidOtherStrength: 0.01
+  avoidWallsStrength: 8
   speed: 10
   localBoidsDistance: 5
   collisionAvoidCheckDistance: 3
   localBoidsAlignmentCheckDistance: 2
+  screenMaxDistanceToAvoidWalls: 0.15
 --- !u!60 &882690660378539633
 PolygonCollider2D:
   m_ObjectHideFlags: 0
